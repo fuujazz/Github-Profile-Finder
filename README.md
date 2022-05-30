@@ -1,3 +1,19 @@
+# In order to run the project 
+
+1) git clone https://github.com/fuujazz/Github-Profile-Finder.git <folder name>
+2) cd <folder name>
+3) npm i
+4) add github api url to .env file as
+  REACT_APP_GITHUB_URL = "..."
+5) add github personal token to .env file as
+  REACT_APP_GITHUB_TOKEN = "..."
+  or
+  Remove REACT_APP_GITHUB_TOKEN parameters from GithubContes.js
+6) npm start
+  
+There you go ...
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
